@@ -1,0 +1,56 @@
+#elso {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: elso;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+        
+@keyframes elso {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:rgb(255, 174, 0); left:200px; top:0px;}
+    50%  {background-color:rgb(229, 255, 0); left:200px; top:200px;}
+    75%  {background-color:rgb(47, 128, 0); left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+
+#masodik {
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+    position: relative;
+    animation-name: masodik;
+    animation-duration: 4s;
+    animation-delay: 0s;
+  }
+  
+  @keyframes masodik {
+    0%   {background-color:wheat; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:rgb(0, 183, 255); left:200px; top:200px;}
+    75%  {background-color:rgb(83, 128, 0); left:0px; top:200px;}
+    100% {background-color:wheat; left:0px; top:0px;}
+  }
+
+  #harmadik {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    position: relative;
+    animation-name: harmadik;
+    animation-duration: 4s;
+    animation-direction: reverse;
+  }
+  
+  @keyframes harmadik {
+   0%  {background-color:rgb(0, 174, 255); left:200px; top:200px;}
+   25%  {background-color:rgb(2, 56, 2); left:0px; top:200px;}
+   75% {background-color:rgb(0, 128, 117); left:0px; top:0px;}
+   100%  {background-color:rgb(9, 255, 0); left:200px; top:0px;}
+    0%   {background-color:green; left:0px; top:0px;}
+   
+  }

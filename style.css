@@ -11,11 +11,11 @@
 }
         
 @keyframes elso {
-    0%   {background-color:red; left:0px; top:0px; width: 120px; height: 120px;}
-    25%  {background-color:rgb(255, 174, 0); left:200px; top:0px;width: 150px; height: 150px;}
-    50%  {background-color:rgb(229, 255, 0); left:200px; top:200px;width: 150px; height: 150px;}
-    75%  {background-color:rgb(47, 128, 0); left:0px; top:200px;width: 120px; height: 120px;}
-    100% {background-color:red; left:0px; top:0px;width: 100px; height: 100px;}
+    0%   {background-color:red; left:0px; top:0px; width: 120px; height: 120px; transform: skew(20deg, 10deg);}
+    25%  {background-color:rgb(255, 174, 0); left:200px; top:0px;width: 150px; height: 150px; transform: skew(40deg, 20deg);}
+    50%  {background-color:rgb(229, 255, 0); left:200px; top:200px;width: 150px; height: 150px; transform: skew(-40deg, -20deg);}
+    75%  {background-color:rgb(47, 128, 0); left:0px; top:200px;width: 120px; height: 120px; transform: skew(-20deg, -10deg);}
+    100% {background-color:red; left:0px; top:0px;width: 100px; height: 100px; transform: skew(0deg, 0deg);}
   }
 
 
@@ -32,10 +32,10 @@
   }
   
   @keyframes masodik {
-    0%   {background-color:wheat; left:0px; top:0px;width:200px ; height: 100px;}
-    25%  {background-color:yellow; left:200px; top:0px;width:100px ;height: 100px;}
-    50%  {background-color:rgb(0, 183, 255); left:200px; top:200px;width:100px ;height: 100px;}
-    75%  {background-color:rgb(83, 128, 0); left:0px; top:200px;width:100px ;height: 100px;}
+    0%   {background-color:wheat; left:0px; top:0px;width:200px ; height: 100px;transform: skewX(20deg);}
+    25%  {background-color:yellow; left:200px; top:0px;width:100px ;height: 100px;transform: skewX(45deg);}
+    50%  {background-color:rgb(0, 183, 255); left:200px; top:200px;width:100px ;height: 100px;transform: skewY(20deg);}
+    75%  {background-color:rgb(83, 128, 0); left:0px; top:200px;width:100px ;height: 100px;transform: skewX(0deg); transform: skewy(0deg);}
     90% {background-color:wheat; left:0px; top:0px;width:100px ;height: 200px;}
     100% {background-color:wheat; left:0px; top:0px;width:100px ;height: 100px;}
     
